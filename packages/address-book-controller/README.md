@@ -1,14 +1,14 @@
-# `@metamask/address-book-controller`
+# `@reused/address-book-controller`
 
 Manages a list of recipient addresses associated with nicknames.
 
 ## Installation
 
-`yarn add @metamask/address-book-controller`
+`yarn add @reused/address-book-controller`
 
 or
 
-`npm install @metamask/address-book-controller`
+`npm install @reused/address-book-controller`
 
 ## Contributing
 

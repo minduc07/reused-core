@@ -5,7 +5,7 @@ import {
   NftController,
   AssetsContractController,
 } from '@metamask/assets-controllers';
-import { AddressBookController } from '@metamask/address-book-controller';
+import { AddressBookController } from '@reused/address-book-controller';
 import { EnsController } from '@metamask/ens-controller';
 import {
   BaseController,

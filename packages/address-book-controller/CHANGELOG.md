@@ -19,6 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/MetaMask/controllers/compare/@metamask/address-book-controller@1.0.1...HEAD
-[1.0.1]: https://github.com/MetaMask/controllers/compare/@metamask/address-book-controller@1.0.0...@metamask/address-book-controller@1.0.1
-[1.0.0]: https://github.com/MetaMask/controllers/releases/tag/@metamask/address-book-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/controllers/compare/@reused/address-book-controller@1.0.1...HEAD
+[1.0.1]: https://github.com/MetaMask/controllers/compare/@reused/address-book-controller@1.0.0...@reused/address-book-controller@1.0.1
+[1.0.0]: https://github.com/MetaMask/controllers/releases/tag/@reused/address-book-controller@1.0.0
