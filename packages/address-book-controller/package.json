@@ -1,5 +1,5 @@
 {
-  "name": "@reused/address-book-controller",
+  "name": "@metamask/address-book-controller",
   "version": "1.0.1",
   "description": "Manages a list of recipient addresses associated with nicknames",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @reused/address-book-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/address-book-controller",
     "prepare-manifest:preview": "../../scripts/prepare-preview-manifest.sh",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest",
