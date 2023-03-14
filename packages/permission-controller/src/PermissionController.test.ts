@@ -191,12 +191,12 @@ const PermissionKeys = {
 // the permission controller.
 
 type SecretNamespacedPermission = ValidPermission<
-  typeof PermissionKeys['wallet_getSecret_*'],
+  (typeof PermissionKeys)['wallet_getSecret_*'],
   NoopCaveat
 >;
 
 type NoopWithFactoryPermission = ValidPermission<
-  typeof PermissionKeys['wallet_noopWithFactory'],
+  (typeof PermissionKeys)['wallet_noopWithFactory'],
   FilterArrayCaveat
 >;
 
@@ -482,8 +482,8 @@ function getDefaultPermissionController(
   opts = getPermissionControllerOptions(),
 ) {
   return new PermissionController<
-    typeof opts.permissionSpecifications[keyof typeof opts.permissionSpecifications],
-    typeof opts.caveatSpecifications[keyof typeof opts.caveatSpecifications]
+    (typeof opts.permissionSpecifications)[keyof typeof opts.permissionSpecifications],
+    (typeof opts.caveatSpecifications)[keyof typeof opts.caveatSpecifications]
   >(opts);
 }
 
